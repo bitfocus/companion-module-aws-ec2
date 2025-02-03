@@ -9,22 +9,22 @@ Example AWS policy for the Companion user:
 
 ```json
 {
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "VisualEditor0",
-      "Effect": "Allow",
-      "Action": [
-        "ec2:RebootInstances",
-        "ec2:DescribeInstances",
-        "ec2:StartInstances",
-        "ec2:DescribeTags",
-        "ec2:DescribeRegions",
-        "ec2:StopInstances",
-        "ec2:DescribeInstanceStatus"
-      ],
-      "Resource": "*"
-    }
-  ]
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "VisualEditor0",
+			"Effect": "Allow",
+			"Action": [
+				"ec2:RebootInstances",
+				"ec2:DescribeInstances",
+				"ec2:StartInstances",
+				"ec2:DescribeTags",
+				"ec2:DescribeRegions",
+				"ec2:StopInstances",
+				"ec2:DescribeInstanceStatus"
+			],
+			"Resource": "*"
+		}
+	]
 }
 ```
