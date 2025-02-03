@@ -1,0 +1,21 @@
+{
+  "name": "aws-ec2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfocus/companion-module-aws-ec2.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-ec2": "^3.731.1",
+    "@companion-module/base": "^1.11.0"
+  },
+  "devDependencies": {
+    "@companion-module/tools": "^2.1.0"
+  }
+}
