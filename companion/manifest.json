@@ -3,7 +3,7 @@
 	"name": "aws-ec2",
 	"shortname": "aws-ec2",
 	"description": "Control AWS EC2 instances",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
 	"repository": "git+https://github.com/bitfocus/companion-module-aws-ec2.git",
 	"bugs": "https://github.com/bitfocus/companion-module-aws-ec2/issues",

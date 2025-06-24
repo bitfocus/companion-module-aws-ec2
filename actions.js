@@ -48,6 +48,8 @@ export function getActionDefinitions(self) {
 					await self.ec2Client.send(new StopInstancesCommand({ InstanceIds: [instanceID] }))
 				} else if (operation === 'reboot') {
 					await self.ec2Client.send(new RebootInstancesCommand({ InstanceIds: [instanceID] }))
+				} else if (operation === 'forcestop') {
+					await self.ec2Client.send(new StopInstancesCommand({ InstanceIds: [instanceID] }, { Force: true }))
 				}
 			},
 		},
